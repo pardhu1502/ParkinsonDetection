@@ -2,11 +2,11 @@
 
 This project compares two hybrid machine learning models for detecting Parkinson’s Disease using voice measurements:
 
--PCA + SVM
+ - PCA + SVM
 
--Sparse Autoencoder (SAE) + SVM
+ - Sparse Autoencoder (SAE) + SVM
 
--Dataset used: UCI Parkinson's Dataset
+ - Dataset used: UCI Parkinson's Dataset
 
 # 📌 Objective
 
@@ -26,8 +26,8 @@ To evaluate whether deep feature extraction (Sparse Autoencoder) performs better
 
  - Matplotlib
 
-🏗️ Architecture 
-
+## 🏗️ Architecture 
+```
 Voice Features
       ↓
 Train/Test Split (Stratified)
@@ -43,36 +43,36 @@ Feature Reduction
 SVM (RBF Kernel + GridSearchCV)
       ↓
 Evaluation (Accuracy, F1, MCC, PR-AUC)
+```
+## ⚙️ Methodology
 
-⚙️ Methodology
+ - Load and preprocess dataset
 
-Load and preprocess dataset
+ - Handle class imbalance using SMOTE
 
-Handle class imbalance using SMOTE
+ - Standardize features
 
-Standardize features
+ - Feature Extraction:
 
-Feature Extraction:
+ - PCA
 
-PCA
+ - Sparse Autoencoder
 
-Sparse Autoencoder (PyTorch)
+ - Classification using SVM
 
-Classification using SVM
+ ## Evaluate using:
 
-Evaluate using:
+ - Accuracy
 
-Accuracy
+ - F1 Score
 
-F1 Score
+ - MCC
 
-MCC
+ - PR AUC
 
-PR AUC
+ - Confusion Matrix
 
-Confusion Matrix
-
-📊 Final Results
+## 📊 Final Results
 🔹 PCA-SVM
 
 Accuracy: 89.74%
