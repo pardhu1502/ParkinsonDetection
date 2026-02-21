@@ -12,19 +12,19 @@ This project compares two hybrid machine learning models for detecting Parkinson
 
 To evaluate whether deep feature extraction (Sparse Autoencoder) performs better than traditional dimensionality reduction (PCA) for Parkinson’s classification.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
--Python
+ - Python
 
--PyTorch
+ - PyTorch
 
--Scikit-learn
+ - Scikit-learn
 
--NumPy
+ - NumPy
 
--Pandas
+ - Pandas
 
--Matplotlib
+ - Matplotlib
 
 🏗️ Architecture 
 
