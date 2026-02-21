@@ -1,30 +1,30 @@
-Parkinson’s Disease Detection using PCA-SVM & SAE-SVM
+# Parkinson’s Disease Detection using PCA-SVM & SAE-SVM
 
 This project compares two hybrid machine learning models for detecting Parkinson’s Disease using voice measurements:
 
-PCA + SVM
+-PCA + SVM
 
-Sparse Autoencoder (SAE) + SVM
+-Sparse Autoencoder (SAE) + SVM
 
-Dataset used: UCI Parkinson's Dataset
+-Dataset used: UCI Parkinson's Dataset
 
-📌 Objective
+# 📌 Objective
 
 To evaluate whether deep feature extraction (Sparse Autoencoder) performs better than traditional dimensionality reduction (PCA) for Parkinson’s classification.
 
 🛠 Tech Stack
 
-Python
+-Python
 
-PyTorch (for Sparse Autoencoder)
+-PyTorch
 
-Scikit-learn
+-Scikit-learn
 
-NumPy
+-NumPy
 
-Pandas
+-Pandas
 
-Matplotlib
+-Matplotlib
 
 🏗️ Architecture 
 
